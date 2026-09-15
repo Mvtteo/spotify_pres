@@ -1,0 +1,438 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Feature de Mix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="chrome-top">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2.4" stroke-linecap="round"><path d="M4 17 L4 9"/><path d="M12 19 L12 5"/><path d="M20 15 L20 11"/></svg>
+      </span>
+      <span>
+        <span class="brand-name">Feature de Mix</span><br>
+        <span class="brand-sub">Strategic Blueprint</span>
+      </span>
+    </div>
+    <span class="context-tag">EFREI · Culture Data &amp; IA</span>
+  </header>
+
+  <main class="stage" id="stage">
+    <button class="click-zone left" id="zonePrev" aria-label="Section précédente"><span class="chev" aria-hidden="true"><i data-feather="chevron-left"></i></span></button>
+    <button class="click-zone right" id="zoneNext" aria-label="Section suivante"><span class="chev" aria-hidden="true"><i data-feather="chevron-right"></i></span></button>
+
+    <!-- 1 -->
+    <section class="slide is-active" data-title="Feature de Mix" data-eyebrow="Intro">
+      <div class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <p class="hero-title">Implémentation de la <span class="hl">« Feature de Mix »</span> : pipeline technique, opérationnel et légal</p>
+      <div style="width:56px;height:2px;background:var(--card-border);margin:22px 0;"></div>
+      <p class="slide-kicker" style="text-transform:uppercase; letter-spacing:1.2px; font-size:.85rem; color:var(--text-dim);">De la conception de niche au passage à l'échelle</p>
+    </section>
+
+    <!-- 2 -->
+    <section class="slide" data-title="Cadrage Spotify" data-eyebrow="Cadrage">
+      <span class="eyebrow">Cadrage</span>
+      <h2 class="slide-title">Spotify : structure et enjeux réglementaires</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Champ</th><th>Détail</th></tr></thead>
+          <tbody>
+            <tr><td class="label">Entité &amp; structure</td><td>Spotify Technology S.A. (holding cotée, Luxembourg) vs Spotify AB (entité opérationnelle suédoise, responsable de traitement RGPD). Autorité chef de file = IMY (Suède), pas la CNIL ; contrats à signer avec Spotify AB.</td></tr>
+            <tr><td class="label">Modèle à deux faces</td><td>Freemium (financé par la pub) vs Premium (abonnement). Point le plus structurant juridiquement : la base légale change selon le tier — consentement pour le ciblage pub côté gratuit, exécution du contrat côté payant.</td></tr>
+            <tr><td class="label">Volume &amp; répartition des MAU</td><td>Ce qui déclenche les seuils réglementaires, pas le CA : statut de très grande plateforme (DSA), transferts internationaux, multiplicité des autorités de contrôle.</td></tr>
+            <tr><td class="label">Nature des données</td><td>Historique d'écoute, playlists, données device, géolocalisation approximative. L'écoute permet d'inférer des catégories sensibles (opinions, religion, orientation via podcasts) — point central RGPD.</td></tr>
+            <tr><td class="label">Existant produit/technique</td><td>Système de recommandation en place → transparence des paramètres (DSA) ; API publiques ; présence mobile → dépendance aux règles des app stores.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="slide-kicker" style="margin-top:20px; font-weight:700; color:var(--text);">Part de marché mondial <span style="color:var(--accent);">32,2%</span> - <span style="color:var(--accent);">263M</span> Millions d'abonnés Premium.</p>
+    </section>
+
+    <!-- 3 -->
+    <section class="slide" data-title="Plan de Réalisation A→Z" data-eyebrow="Synthèse">
+      <span class="eyebrow">Synthèse exécutive</span>
+      <h2 class="slide-title">Plan de réalisation de A à Z</h2>
+      <div class="grid-2x2">
+        <div class="cell"><div class="big-num">1.</div><h3>Validation du Cas d'Usage</h3><p>Ciblage d'un public de niche désirant une interaction active avec le catalogue musical, nécessitant une analyse stricte de la rentabilité.</p></div>
+        <div class="cell"><div class="big-num">2.</div><h3>Déploiement « Test &amp; Learn »</h3><p>Pipeline opérationnel graduel basé sur des métriques de rétention et d'utilisation précises (ex : option de fondu).</p></div>
+        <div class="cell"><div class="big-num">3.</div><h3>Conformité Légale (RGPD &amp; DPA)</h3><p>Mise en place d'un cadre juridique inébranlable pour la gestion du consentement, le traitement des données d'interaction et l'adaptation des CGU.</p></div>
+        <div class="cell"><div class="big-num">4.</div><h3>Matrice de Passage à l'Échelle</h3><p>Prise de décision conditionnée par les données : de la consolidation basique (amateurs) au développement d'un outil compétitif (professionnels).</p></div>
+      </div>
+    </section>
+
+    <!-- 4 -->
+    <section class="slide" data-title="Le Sujet Niche" data-eyebrow="Constat">
+      <span class="eyebrow">Le constat</span>
+      <div class="split">
+        <p class="quote">une fonctionnalité niche pour fidéliser les utilisateurs en se basant sur une segmentation de l'audience.</p>
+        <div>
+          <div class="info-card"><h3>L'audience cible</h3><p>Des utilisateurs recherchent des fonctionnalités supplémentaires et créatives pour personnaliser leur expérience.</p></div>
+          <div class="info-card"><h3>Le défi de la rentabilité</h3><p>Public très ciblé : possibilité que l'audience finale soit très faible. Le développement risque de ne pas être rentable en temps et investissement par rapport à la demande réelle.
+          Mais le projet est réplicable sur d'autres thèmes.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 -->
+    <section class="slide" data-title="Stratégie Test & Learn" data-eyebrow="Opérationnel">
+      <span class="eyebrow">Pipeline opérationnelle</span>
+      <h2 class="slide-title">Stratégie « Test &amp; Learn »</h2>
+      <div class="col-3">
+        <div class="col"><div class="col-step">01 — Ciblage</div><h3>Ciblage des utilsiateurs de la fonctionnalité</h3><p>Définition stricte des types d'utilisateurs pour isoler la cohorte de test optimale. <span style="color:var(--accent);">Utilisateurs du crossfade.</span> </p></div>
+        <div class="col"><div class="col-step">02 — Déploiement</div><h3>Déploiement graduel</h3><p>Ouverture progressive de la fonctionnalité à l'échantillon d'utilisateurs concernés pour minimiser les risques techniques.</p></div>
+        <div class="col"><div class="col-step">03 — Mesure</div><h3>Mesure de l'utilisation</h3><p>Suivi intensif du taux d'utilisation d'outils spécifiques, principalement l'option de fondu entre titres (crossfade).</p></div>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section class="slide" data-title="Adoptabilité & Utilité" data-eyebrow="Technique">
+      <span class="eyebrow">Pipeline technique</span>
+      <h2 class="slide-title">Mesure de l'adoptabilité et de l'utilité</h2>
+      <div class="stat-stack" style="margin-top:20px;">
+        <div class="stat-block">
+          <div class="stat-label">Métrique 01</div>
+          <div class="stat-word accent">Fidélisation</div>
+          <p class="stat-q">Combien de personnes sont fidélisées spécifiquement via l'utilisation de cette nouvelle option de mixage ?</p>
+        </div>
+        <div class="stat-block">
+          <div class="stat-label">Métrique 02</div>
+          <div class="stat-word">Corrélation d'engagement</div>
+          <p class="stat-q">Est-ce que le taux global d'utilisateurs actifs varie proportionnellement à l'utilisation de cette feature ?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 -->
+    <section class="slide" data-title="Conformité Absolue" data-eyebrow="Légal">
+      <div class="statement">
+        <div class="rule"></div>
+        <h2>L'innovation technique exige une conformité absolue.</h2>
+      </div>
+    </section>
+
+    <!-- 8 -->
+    <section class="slide" data-title="RGPD & DPA" data-eyebrow="Légal">
+      <span class="eyebrow">Conformité</span>
+      <h2 class="slide-title">Conformité RGPD &amp; Data Processing Agreement (DPA)</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Exigences légales (RGPD)</th><th>Implémentation technique (DPA &amp; ingénierie)</th></tr></thead>
+          <tbody>
+            <tr><td class="label">Anonymisation des comportements</td><td>Les données de mixage (points de cue, fondus) sont silotées et dissociées de l'identifiant nominatif de l'utilisateur.</td></tr>
+            <tr><td class="label">Traitement tiers (DPA)</td><td>Chiffrement de bout en bout des requêtes envoyées aux serveurs cloud (moteurs de mixage) avec protocoles de suppression automatisés.</td></tr>
+            <tr><td class="label">Droit à l'oubli</td><td>Scripts de purge permettant l'effacement total des sessions de mixage d'un utilisateur en moins de 72 heures.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="slide" data-title="CGU/CGV & Consentement" data-eyebrow="Légal">
+      <span class="eyebrow">Conformité</span>
+      <h2 class="slide-title">Mise à jour des CGU/CGV et gestion du consentement</h2>
+      <div class="checklist">
+        <div class="check-row"><span class="check-badge" aria-hidden="true"><i data-feather="check"></i></span><div><h3>Modification des CGU pour la manipulation audio</h3><p>Intégration de clauses spécifiques autorisant la modification temporaire, le mixage et la transition (fondu) d'œuvres protégées par le droit d'auteur, dans le strict cadre de l'application.</p></div></div>
+        <div class="check-row"><span class="check-badge" aria-hidden="true"><i data-feather="check"></i></span><div><h3>Workflow de consentement granulaire (opt-in)</h3><p>Déploiement d'une interface de recueil de consentement explicite lors de la première ouverture de la feature de Mix, autorisant la collecte des données d'interaction au niveau de la milliseconde.</p></div></div>
+        <div class="check-row"><span class="check-badge" aria-hidden="true"><i data-feather="check"></i></span><div><h3>Mise à jour de la politique de confidentialité</h3><p>Transparence totale sur la durée de conservation des données d'écoute modifiées et les finalités de l'analyse comportementale du mixage.</p></div></div>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="slide" data-title="Données Personnelles" data-eyebrow="Légal">
+      <span class="eyebrow">Conformité</span>
+      <h2 class="slide-title">Données personnelles collectées</h2>
+      <div class="duplicate-grid">
+        <div class="dup-col">
+          <h3>Marketing</h3>
+          <div class="row"><b>Base légale :</b> consentement préalable, révocable à tout moment (art. 13.9).</div>
+          <div class="row"><b>Durée :</b> 13 mois (mesure d'audience).</div>
+          <div class="row"><b>Restriction :</b> aucune publicité ciblée pour les comptes de mineurs.</div>
+          <div class="row"><b>Aucune revente</b> à des tiers publicitaires.</div>
+        </div>
+        <i data-feather="arrow-right" class="dup-arrow" aria-hidden="true"></i>
+        <div class="dup-col">
+          <h3>Technique &amp; Sécurité</h3>
+          <div class="row"><b>Base légale :</b> intérêt légitime et obligation légale de sécurité.</div>
+          <div class="row"><b>Durée :</b> 12 mois (sécurité, modération).</div>
+          <div class="row"><b>Finalité :</b> anti-fraude, modération — non commerciale.</div>
+          <div class="row"><b>Aucune décision automatisée</b> (art. 22 RGPD).</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section class="slide" data-title="Équilibre Économique" data-eyebrow="Risque">
+      <span class="eyebrow">Gestion des risques</span>
+      <h2 class="slide-title">L'équilibre économique</h2>
+      <div class="vs-grid">
+        <div class="vs-card risk"><h3>Le risque : audience faible</h3><p>Développement non rentable en temps et investissement si la demande réelle pour la manipulation active est trop restreinte.</p></div>
+        <div class="vs-badge" aria-hidden="true">VS</div>
+        <div class="vs-card opportunity"><h3>L'opportunité : rétention massive</h3><p>Création d'une hyper-fidélisation chez les power-users, transformant le temps d'écoute passif en engagement actif prolongé.</p></div>
+      </div>
+    </section>
+
+    <!-- 12 -->
+    <section class="slide" data-title="Matrice de Passage à l'Échelle" data-eyebrow="Décision">
+      <span class="eyebrow">Matrice de décision</span>
+      <h2 class="slide-title">Stratégie de passage à l'échelle</h2>
+      <div class="tree">
+        <p class="tree-intro"><b>Évaluation post-déploiement</b> en fonction du nombre d'utilisateurs de la fonctionnalité.</p>
+        <svg class="tree-svg" viewBox="0 0 420 60" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="210" y1="0" x2="210" y2="24"/>
+          <line x1="60" y1="24" x2="360" y2="24"/>
+          <line x1="60" y1="24" x2="60" y2="48"/>
+          <line x1="360" y1="24" x2="360" y2="48"/>
+          <polyline points="52,42 60,50 68,42"/>
+          <polyline points="352,42 360,50 368,42"/>
+        </svg>
+        <div class="tree-branches">
+          <div class="branch-card weak"><div class="tag">Si la demande est faible</div><div class="demand">Usage strictement de niche</div><div class="sub">↳ Scénario A</div><div class="out">Consolidation basique</div></div>
+          <div class="branch-card strong"><div class="tag">Si la demande est forte</div><div class="demand">Adoption généralisée</div><div class="sub">↳ Scénario B</div><div class="out">Développement évolutif</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13 -->
+    <section class="slide" data-title="Consolidation Basique" data-eyebrow="Scénario A">
+      <span class="eyebrow is-neutral">Scénario A — Public amateur</span>
+      <h2 class="slide-title">Consolidation basique</h2>
+      <div class="scenario-box">
+        <p><b>La décision :</b> stopper le développement actif.</p>
+        <p><b>L'exécution :</b> laisser en place une fonctionnalité très basique de transition et de fondu.</p>
+        <p><b>L'objectif stratégique :</b> convenir aux amateurs et maintenir la satisfaction de cette niche sans sur-investir de ressources d'ingénierie supplémentaires. L'outil devient un acquis du produit, maintenu à coût minimum.</p>
+      </div>
+    </section>
+
+    <!-- 14 -->
+    <section class="slide" data-title="Développement Évolutif" data-eyebrow="Scénario B">
+      <span class="eyebrow">Scénario B — Public pro</span>
+      <h2 class="slide-title">Développement évolutif</h2>
+      <div class="scenario-box">
+        <p><b>La décision :</b> adapter et développer la fonctionnalité à grande échelle.</p>
+        <p><b>L'exécution :</b> allocation de ressources pour des algorithmes de mixage avancés, synchronisation de BPM, et intégrations de contrôleurs matériels.</p>
+        <div class="scenario-final">L'objectif stratégique : <span class="hl">concurrencer directement les logiciels professionnels de mix</span>. Transformer Spotify d'un lecteur passif en un écosystème de création et de performance.</div>
+      </div>
+    </section>
+
+    <!-- 15 -->
+    <section class="slide" data-title="Duplication de l'Infrastructure" data-eyebrow="Vision">
+      <span class="eyebrow">Vision à long terme</span>
+      <h2 class="slide-title">Duplication de l'infrastructure</h2>
+      <p class="slide-kicker">Augmentation de la solution avec des services supplémentaires et duplication de l'architecture pour des thèmes différents.</p>
+      <div class="duplicate-grid">
+        <div class="dup-col">
+          <h3>Cas d'usage actuel</h3>
+          <div class="feature">Feature de Mix</div>
+          <div class="row"><b>Cible :</b> amateurs de DJing et musiques électroniques/urbaines.</div>
+          <div class="row"><b>Action :</b> jouer avec les morceaux, fondus, transitions.</div>
+        </div>
+        <i data-feather="arrow-right" class="dup-arrow" aria-hidden="true"></i>
+        <div class="dup-col">
+          <h3>Duplication future</h3>
+          <div class="feature">Compositeur ludique de piano</div>
+          <div class="row"><b>Cible :</b> audience de musique classique et instrumentale.</div>
+          <div class="row"><b>Action :</b> fidéliser cette audience avec un outil interactif de composition ou d'arrangement de morceaux de piano.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16 -->
+    <section class="slide" data-title="Prochaines Étapes" data-eyebrow="Roadmap">
+      <span class="eyebrow">Roadmap</span>
+      <h2 class="slide-title">Résumé des prochaines étapes opérationnelles</h2>
+      <div class="steps">
+        <div class="step-row"><div class="step-num">1</div><div><h3>Validation des spécifications techniques</h3><p>Finalisation de l'architecture de silotage des données et des métriques de l'option de fondu enchaîné.</p></div></div>
+        <div class="step-row"><div class="step-num">2</div><div><h3>Rédaction des mises à jour légales</h3><p>Brouillon des nouvelles CGU/CGV concernant la manipulation audio et le recueil de consentement granulaire.</p></div></div>
+        <div class="step-row"><div class="step-num">3</div><div><h3>Lancement de la Phase 1 (ciblage)</h3><p>Activation de l'algorithme pour identifier la cohorte d'utilisateurs « Test &amp; Learn » et premier déploiement graduel.</p></div></div>
+      </div>
+    </section>
+
+    <!-- 17 -->
+    <section class="slide" data-title="Décisions & Approbations" data-eyebrow="Closing">
+      <div class="statement">
+        <h2>Décisions &amp; Approbations</h2>
+        <div class="rule after"></div>
+        <p class="caption">Validation requise sur le pipeline technique, opérationnel et légal avant le lancement de la Phase 1.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="player">
+    <div class="progress-row">
+      <span class="time" id="timeCurrent">01</span>
+      <div class="progress-track" id="progressTrack">
+        <div class="progress-bg"></div>
+        <div class="progress-fill" id="progressFill"></div>
+        <div class="segments" id="segments"></div>
+      </div>
+      <span class="time end" id="timeTotal">15</span>
+    </div>
+    <div class="player-row">
+      <div class="now-playing">
+        <span class="art" id="art" aria-hidden="true"></span>
+        <span class="np-text">
+          <div class="np-title" id="npTitle">Feature de Mix</div>
+          <div class="np-eyebrow" id="npEyebrow">Intro</div>
+        </span>
+      </div>
+      <div class="transport">
+        <div class="transport-btns">
+          <button class="tbtn shuffle" id="btnShuffle" aria-label="Aller à une section aléatoire">
+            <i data-feather="shuffle"></i>
+          </button>
+          <button class="tbtn" id="btnPrev" aria-label="Section précédente">
+            <i data-feather="skip-back"></i>
+          </button>
+          <button class="play-btn" id="btnPlay" aria-label="Lecture automatique des sections">
+            <i data-feather="play" id="iconPlay"></i>
+            <i data-feather="pause" id="iconPause" hidden></i>
+          </button>
+          <button class="tbtn" id="btnNext" aria-label="Section suivante">
+            <i data-feather="skip-forward"></i>
+          </button>
+          <button class="tbtn repeat" id="btnRepeat" aria-label="Activer la boucle">
+            <i data-feather="repeat"></i>
+          </button>
+        </div>
+      </div>
+      <div class="side-actions">
+        <span class="slide-count" id="slideCount">01 · 15</span>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<span class="visually-hidden" id="liveRegion" aria-live="polite"></span>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+<script>
+(function(){
+  if (window.feather) { feather.replace({ 'stroke-width': 2 }); }
+
+  var slides = Array.from(document.querySelectorAll('.slide'));
+  var total = slides.length;
+  var current = 0;
+  var repeatOn = false;
+  var autoplayOn = false;
+  var autoplayTimer = null;
+
+  var npTitle = document.getElementById('npTitle');
+  var npEyebrow = document.getElementById('npEyebrow');
+  var art = document.getElementById('art');
+  var progressFill = document.getElementById('progressFill');
+  var segmentsWrap = document.getElementById('segments');
+  var timeCurrent = document.getElementById('timeCurrent');
+  var timeTotal = document.getElementById('timeTotal');
+  var slideCount = document.getElementById('slideCount');
+  var btnPrev = document.getElementById('btnPrev');
+  var btnNext = document.getElementById('btnNext');
+  var btnPlay = document.getElementById('btnPlay');
+  var iconPlay = document.getElementById('iconPlay');
+  var iconPause = document.getElementById('iconPause');
+  var btnShuffle = document.getElementById('btnShuffle');
+  var btnRepeat = document.getElementById('btnRepeat');
+  var zonePrev = document.getElementById('zonePrev');
+  var zoneNext = document.getElementById('zoneNext');
+  var liveRegion = document.getElementById('liveRegion');
+
+  timeTotal.textContent = String(total).padStart(2,'0');
+
+  segmentsWrap.innerHTML = '';
+  var segButtons = slides.map(function(s, i){
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.setAttribute('aria-label', 'Aller à la section ' + (i+1) + ' : ' + s.dataset.title);
+    b.addEventListener('click', function(){ goTo(i); });
+    segmentsWrap.appendChild(b);
+    return b;
+  });
+
+  function pad(n){ return String(n).padStart(2,'0'); }
+
+  function render(){
+    slides.forEach(function(s, i){ s.classList.toggle('is-active', i === current); });
+    var s = slides[current];
+    npTitle.textContent = s.dataset.title;
+    npEyebrow.textContent = s.dataset.eyebrow;
+    art.style.setProperty('--hue', (current * 47) % 360);
+    timeCurrent.textContent = pad(current + 1);
+    slideCount.textContent = pad(current + 1) + ' · ' + pad(total);
+    progressFill.style.width = ((current + 1) / total * 100) + '%';
+    segButtons.forEach(function(b, i){ b.style.opacity = i === current ? '1' : '0'; });
+    btnPrev.disabled = !repeatOn && current === 0;
+    btnNext.disabled = !repeatOn && current === total - 1;
+    zonePrev.disabled = !repeatOn && current === 0;
+    zoneNext.disabled = !repeatOn && current === total - 1;
+    liveRegion.textContent = 'Section ' + (current + 1) + ' sur ' + total + ' : ' + s.dataset.title;
+  }
+
+  function goTo(i){
+    if (repeatOn){ i = (i + total) % total; }
+    else { i = Math.min(Math.max(i, 0), total - 1); }
+    current = i;
+    render();
+  }
+  function next(){
+    if (!repeatOn && current === total - 1){ stopAutoplay(); return; }
+    goTo(current + 1);
+  }
+  function prev(){ goTo(current - 1); }
+
+  function stopAutoplay(){
+    clearInterval(autoplayTimer);
+    autoplayTimer = null;
+    autoplayOn = false;
+    iconPlay.hidden = false;
+    iconPause.hidden = true;
+    btnPlay.setAttribute('aria-label', 'Lecture automatique des sections');
+  }
+  function startAutoplay(){
+    autoplayOn = true;
+    iconPlay.hidden = true;
+    iconPause.hidden = false;
+    btnPlay.setAttribute('aria-label', 'Mettre en pause la lecture automatique');
+    autoplayTimer = setInterval(next, 6000);
+  }
+
+  btnPlay.addEventListener('click', function(){ autoplayOn ? stopAutoplay() : startAutoplay(); });
+  btnPrev.addEventListener('click', function(){ stopAutoplay(); prev(); });
+  btnNext.addEventListener('click', function(){ stopAutoplay(); next(); });
+  zonePrev.addEventListener('click', function(){ stopAutoplay(); prev(); });
+  zoneNext.addEventListener('click', function(){ stopAutoplay(); next(); });
+  btnShuffle.addEventListener('click', function(){
+    stopAutoplay();
+    if (total <= 1) return;
+    var r;
+    do { r = Math.floor(Math.random() * total); } while (r === current);
+    goTo(r);
+  });
+  btnRepeat.addEventListener('click', function(){
+    repeatOn = !repeatOn;
+    btnRepeat.classList.toggle('is-on', repeatOn);
+    render();
+  });
+
+  window.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown'){ stopAutoplay(); next(); }
+    else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp'){ stopAutoplay(); prev(); }
+    else if (e.key === 'Home'){ stopAutoplay(); goTo(0); }
+    else if (e.key === 'End'){ stopAutoplay(); goTo(total - 1); }
+  });
+
+  var touchX = null;
+  var stage = document.getElementById('stage');
+  stage.addEventListener('touchstart', function(e){ touchX = e.changedTouches[0].clientX; }, { passive:true });
+  stage.addEventListener('touchend', function(e){
+    if (touchX === null) return;
+    var dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 40){ stopAutoplay(); dx < 0 ? next() : prev(); }
+    touchX = null;
+  }, { passive:true });
+
+  render();
+})();
+</script>
+</body></html>
